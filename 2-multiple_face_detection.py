@@ -9,7 +9,7 @@ pre_trained_data = cv2.CascadeClassifier(r"resources/haarcascade_frontalface_def
 
 
 # importing the image of the face for detection
-img = cv2.imread(r"resources/two faces.jpg")
+img = cv2.imread(r"image.jpg")
 
 
 # resizing the image, since the image is very big
@@ -30,7 +30,6 @@ print(f"x={face_coordinates[0][0]}\ny={face_coordinates[0][1]}\n"
       f"w={face_coordinates[0][2]}\nh={face_coordinates[0][3]}")
 
 # drawing the rectangle around the face
-
 for (x,y,w,h) in face_coordinates:
       """looping through faces for multiple face detection"""
 
