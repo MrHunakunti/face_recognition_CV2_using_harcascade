@@ -23,6 +23,7 @@ while True:
 
     cv2.imshow("webcam", frame)
     # to stop the video
+    # loop will break once the keyboard key q is pressed
     if cv2.waitKey(delay=100) & 0xff==ord("q"):
         break
 
