@@ -7,7 +7,7 @@ import numpy as np
 pre_trained_data = cv2.CascadeClassifier(r"resources/haarcascade_frontalface_default.xml")
 
 # importing the image of the face for detection
-img = cv2.imread(r"resources/samiulla_potrait.jpg")
+img = cv2.imread("insert your image here")
 
 # convert the image to greyscale
 img_grey = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
